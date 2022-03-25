@@ -3,7 +3,6 @@
 body {
     font-family: Source Sans Pro;
     background-color: #eee;
-    border-color: #eee;
 }
 
 header {
@@ -17,17 +16,40 @@ h2 h4 {
 
 .newspaper-container {
     background-color: white;
-    box-shadow: #ddd;
+    box-shadow: .5em#ddd;
     width: 700px;
     border-radius: 1em;
     box-shadow: .5em;
-    padding: 1em;
+    padding: 5em;
+    margin: auto;
+
 }
 
-main {
+h5 {
     color: #dd3232;
 }
 
 li {
     list-style: none;
+    padding: 0em .2em;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+nav {
+    border-top: solid black;
+    border-bottom: solid black;
+    text-align: center;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
 }
