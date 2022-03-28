@@ -47,9 +47,53 @@ nav {
     border-top: solid black;
     border-bottom: solid black;
     text-align: center;
+    position: sticky;
+    top: 0em;
+    background-color: lightgrey;
 }
+
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: none;
+}
+
+main img {
+    width: 100%;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 47%;
+    margin: 0.5em;
+    text-align: justify;
+}
+
+.three-more-articles section {
+    display: inline-block;
+    width: 30%;
+    margin: 0.5em;
+    text-align: justify;
+}
+
+p {
+    display: auto;
+}
+
+.three-more-articles img {
+    width: 100%;
+}
+
+.more-articles img {
+    width: 100%;
+}
+
+.more-articles {
+    border-top: solid;
+    border-color: black;
+}
+
+.three-more-articles {
+    border-top: solid;
+    border-color: black;
 }
